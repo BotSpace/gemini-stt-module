@@ -1,0 +1,4 @@
+*.exe
+/gemini-stt-module
+bin/
+.DS_Store

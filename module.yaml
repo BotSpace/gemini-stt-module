@@ -1,0 +1,16 @@
+apiVersion: botmother.module/v1
+
+module:
+  id: gemini-stt
+  name: Gemini STT
+  description: Ovoz/audio xabarni Google Gemini orqali matnga aylantiradi (bepul tier).
+  icon: mic
+
+source:
+  github: https://github.com/BotSpace/gemini-stt-module
+
+runtime:
+  dockerfile: Dockerfile
+  port: 8100
+
+# node'lar va credential type'lar describe() RPC'dan olinadi.

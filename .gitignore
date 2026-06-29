@@ -2,3 +2,4 @@
 /gemini-stt-module
 bin/
 .DS_Store
+gemini-tts-module
